@@ -6,22 +6,37 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    color: lightslategray;
 
 }
 nav{
-    height: 10vh;
-}
+    height: 4rem;
+} 
 
+
+header {
+    padding: 0 1rem;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+
+}
 
 a{
     text-decoration: none;
     display: inline;
+    color: black;
+
 }
 
 ul li {
     list-style-type: none;
     border: 1px solid red;
     display: inline;
+    padding: .8rem;
 }
 
 
@@ -36,4 +51,19 @@ ul li {
     align-items: center;
 }
 
+.p_absolute {
+    position: absolute;
+}
+
+.p_relative {
+    position: relative;
+}
+
+
+
+.hero{
+    height:68vh;
+    background-color: violet;
+    z-index: 1;
+}
     
