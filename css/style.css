@@ -13,6 +13,9 @@ nav{
     height: 4rem;
 } 
 
+h1{
+    display: inline;
+}
 
 header {
     padding: 0 1rem;
@@ -20,6 +23,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
     width: 100%;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
 
@@ -46,6 +50,13 @@ ul li {
     border: 1px solid red;
 }
 
+.flex_centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
 .flex_bet {
     justify-content: space-between;
     align-items: center;
@@ -61,9 +72,35 @@ ul li {
 
 
 
-.hero{
-    height:68vh;
+.hero {
+    /* height: calc(100vh - 4rem); */
+    margin-top: 4rem;
     background-color: violet;
-    z-index: 1;
+    width: 100%;
 }
+   
+.grid{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.col_30{
+    width: 30%;
+    padding: 5%;
     
+}
+
+.col_70{
+    width: 70%;
+    padding: 5%;
+    border: 1px solid red;
+    
+}
+
+/* .col_70 img {
+    width: 400px;
+    border: 1px solid rgb(17, 10, 10);
+
+
+} */
