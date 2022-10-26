@@ -84,12 +84,12 @@ p button {
 button {
     border: none;
     padding: .8rem;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     
 }
 
 .button_light {
     background-color: white;
+    border: 1px solid lightgray;
 }
 
 .button_blue {
@@ -276,21 +276,31 @@ hr {
     padding: 1rem 0 1rem 0;
 }
 
-.col_30 {
+.col_40 {
     width: 30%;
     height: 400px;
-    padding: 5%;
-    background: rgba(0, 255, 255, 0.808);
+    padding-top: 8rem;
     
 }
 
-.col_70   {
+.col_40 p {
+    padding: 2rem 0;  
+}
+
+.col_60   {
     width: 70%;
     height: 400px;
     padding: 5%;
-    background: rgb(27, 137, 46);
-    
 }
+
+.col_60 img {
+    width: 500px;
+}
+
+.column {
+    margin-bottom: 10rem;
+}
+
 
 .col_bu{
     height: 700px;
