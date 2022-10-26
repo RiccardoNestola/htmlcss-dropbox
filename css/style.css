@@ -8,7 +8,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
     min-width: 900px;
-
 }
 
 header {
@@ -20,7 +19,6 @@ header {
     z-index: 1;
     width: 100%;
     box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
-
 }
 
 a{
@@ -37,15 +35,10 @@ ul li {
     height: 100%;
 }
 
-
-
-
 nav {
     height: 80px;
     width: 100% ;
 } 
-
-
 
 h1 {
     display: inline;
@@ -58,13 +51,11 @@ h2 {
     padding-bottom: 3rem;
 }
 
-
 p,
 span {
     font-size: 0.8rem;
-    display: block;
+    display: inline-block;
 }
-
 
 p button {
     margin-top: 1.5rem;
@@ -78,8 +69,6 @@ p button {
     font-size: 3rem;
     display: block;
 }
-
-
 
 button {
     border: none;
@@ -117,21 +106,28 @@ button {
 }
 
 .hero_content {
-    /* background-color: red; */
     height:400px;
     padding-top:50px;
     margin: 0 auto;
     width: 65vw;
 }
 
-label{
+label {
     font-size: 0.8rem;
     padding: 0 1.5rem 0 0.5rem;
 }
 
+.center {
+    margin: 0 auto;
+    width: 55vw;
+}
 
+.center_big {
+    margin: 0 auto;
+    width: 65vw;
+}
 
-.flex{
+.flex {
     display: flex;
 }
 
@@ -151,11 +147,11 @@ label{
     margin-top: 1.2rem;
 }
 
-.flex_wrap{
+.flex_wrap {
     flex-wrap: wrap;
 }
 
-.flex_dir{
+.flex_dir {
     flex-direction: column;
 }
 
@@ -168,7 +164,7 @@ label{
 }
 
 .container_big {
-    max-width: 1200px;
+    width: 70vw;
     margin: 0 auto;
 }
 
@@ -182,7 +178,7 @@ label{
 }
 
 
-#plans_container{
+#plans_container {
     padding-top: 150px;
 }
    
@@ -195,14 +191,12 @@ label{
 .col {
     height: 740px;
     width: calc(100% / 3 - 2rem);
-    /* background-color: red; */
     margin: 3rem 1rem;
     border: 1px solid lightgrey;
 }
 
 .fa-solid {
     padding-right: 1rem;
-    /* text-indent: 2px; */
 }
 
 
@@ -302,7 +296,7 @@ hr {
 }
 
 
-.col_bu{
+.col_bu {
     height: 340px;
     width: calc(100% / 3 - 2rem);
     margin: 3rem 1rem;
@@ -312,7 +306,7 @@ hr {
     width: 100%;
 }
 
- .users{
+ .users {
     margin-top: 5rem;
     width: 60%;
     margin-bottom: 3rem;
@@ -323,3 +317,158 @@ hr {
     color: #0061ff;
     
 }
+
+.member_grid .square {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    flex-wrap: wrap;
+}
+
+.member_grid .square_l {
+    height: calc(100% / 2);
+    width: calc(100% / 2);
+    justify-content: center;
+    align-items: center;
+}
+
+.member_grid .square_l svg {
+    width: 50%;
+    filter: invert(100%);
+}
+
+ #designit { 
+    background-color: #A2D39B;
+    border: 10px solid #D1E9CD;
+}
+
+#arizona { 
+    background-color: #61082B;
+}
+
+#florida { 
+    background-color: #0093CE;
+}
+
+#topps { 
+    background-color:#FF1C1C;
+}
+
+#bicycle { 
+    background-color: #D5001F;
+}
+
+#hearst { 
+    background-color: #B4D0E7;
+}
+
+#planet { 
+    background-color: #0D2481;
+}
+
+#channel { 
+    background-color: #FFD830;
+}
+
+.square_b { 
+    background-color: #f5f5f5;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+    color: grey;
+    font-size: 0.8rem;
+}
+
+
+.square_b svg { 
+    width: 50%;
+}
+
+.square_b hr { 
+    width: 20%;
+}
+
+.square_b p { 
+    padding-bottom: 2rem;
+}
+
+
+.company {
+    background-color: #b4d0e7;
+}
+
+.company div {
+    justify-content: space-between;
+    align-items: center;
+    min-height: 300px;
+}
+
+.company div h2 {
+    font-size: 2.3rem;
+    color: #641033;
+    width: 60%;
+}
+
+.company div button {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.questions {
+    background-color: #ffffff;
+    min-height: 550px;
+    padding-top: 5rem;
+}
+
+.questions h2,
+.questions p {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.questions p {
+    font-size: 0.8rem;
+}
+
+.questions div {
+    justify-content: space-between;
+}
+
+.questions hr {
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    min-height: 400px;
+    color: #ffff;
+}
+
+.footer_menu {
+    padding-top: 4rem;
+    justify-content: space-between;
+}
+
+.footer_menu  ul {
+    padding-top: 2rem;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+}
+
+
+.footer_li li {
+    display: inherit;
+    padding: 5px;
+}
+
+footer hr {
+    margin-top: 4rem;
+    width: 100px;
+}
+
+.sub_footer {
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.sub_footer span {
+    padding: 0 .2rem 0 .2rem;
+    margin-bottom: 1rem;
+}
+    
