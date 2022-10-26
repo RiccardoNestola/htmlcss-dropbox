@@ -53,6 +53,11 @@ h1 {
     font-size: 5rem;
 }
 
+h2 {
+    font-size: 2rem;
+    padding-bottom: 3rem;
+}
+
 p,
 span {
     font-size: 0.8rem;
@@ -118,8 +123,10 @@ button {
     width: 65vw;
 }
 
-
-
+label{
+    font-size: 0.8rem;
+    padding: 0 1.5rem 0 0.5rem;
+}
 
 
 
@@ -157,7 +164,6 @@ button {
 .container_big {
     max-width: 1200px;
     margin: 0 auto;
-    /* padding-top: 100px; */
 }
 
 .container {
@@ -175,19 +181,80 @@ button {
 }
    
 
-.col {
-    height: 600px;
-    width: calc(100% / 3 - 2rem);
-    background-color: red;
-    margin: 3rem 1rem;
+.cards {
+    margin-top: 2rem;
+    
 }
+
+.col {
+    height: 700px;
+    width: calc(100% / 3 - 2rem);
+    /* background-color: red; */
+    margin: 3rem 1rem;
+    border: 1px solid lightgrey;
+}
+
+.fa-solid {
+    padding-right: 1rem;
+    /* text-indent: 2px; */
+}
+
+
+.intro_icon {
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0 0.5rem 0;
+    border-bottom: 1px solid lightgrey;
+    font-size: 0.8rem;
+}
+
+.desc {
+    padding: 1rem;
+}
+
+.desc span {
+    color: grey;
+    font-size: 0.7rem;
+
+}
+
+.desc h4{
+    font-size: 1rem;
+}
+
+hr {
+    width: 40px;
+    margin: 2rem 0 2rem 0;
+    color: grey;
+}
+
+.desc p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 1rem 0 0.5rem 0;
+    margin-left: 20px;
+}
+
+.desc ul {
+    padding: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.desc ul li {
+    padding-top: 1rem;
+ }
+
+ .desc button {
+    margin: 2.5rem 0 3rem 0;
+    width: 100%;
+}
+
 
 .col_big {
     height: 300px;
     /* width: 100%; */
     background-color: red;
-    margin: 3rem 1rem;
-}
+    margin: 3rem 1rem;}
 
 
 .col_30 {
@@ -206,3 +273,10 @@ button {
     
 }
 
+.col_bu{
+    height: 700px;
+    width: calc(100% / 3 - 2rem);
+    background-color: red;
+    margin: 3rem 1rem;
+    
+}
