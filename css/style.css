@@ -303,10 +303,15 @@ hr {
 
 
 .col_bu{
-    height: 700px;
+    height: 340px;
     width: calc(100% / 3 - 2rem);
-    background-color: red;
     margin: 3rem 1rem;
     
     
+}
+
+.col_bu img {
+    width: 100%;
+
+
 }
