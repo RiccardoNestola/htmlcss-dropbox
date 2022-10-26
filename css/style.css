@@ -306,12 +306,20 @@ hr {
     height: 340px;
     width: calc(100% / 3 - 2rem);
     margin: 3rem 1rem;
-    
-    
 }
 
 .col_bu img {
     width: 100%;
+}
 
+ .users{
+    margin-top: 5rem;
+    width: 60%;
+    margin-bottom: 3rem;
+}
 
+.users a {
+    text-decoration:underline;
+    color: #0061ff;
+    
 }
